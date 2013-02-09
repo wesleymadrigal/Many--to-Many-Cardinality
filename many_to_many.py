@@ -1,5 +1,8 @@
 # I wrote a many to many relationship model in Python with the sqlite3 module.
 # the connection references a schema.sql file for constructing the rows
+# the approach I took with this many to many relationship utilizes only two
+# tables, and never creates a third in the middle with the common connections
+
 
 
 import sqlite3
